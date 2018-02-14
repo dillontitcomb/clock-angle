@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css'>
+    <title>Clock</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Give me a time and I will show you a clock!</h1>
+      <form action="/clock" method="post">
+        <label for="hours">Hour (Military)</label>
+        <input type="number" name="hours"><br>
+        <label for="minutes">Minute</label>
+        <input type="number" name="minutes">
+        <button type="submit" class="btn btn-success">Submit!</button>
+      </form>
+      <h1></h1>
+    </div>
+  </body>
+</html>
